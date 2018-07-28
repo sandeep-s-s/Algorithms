@@ -3,6 +3,6 @@
 int
 main (void)
 {
-  printf ("Hello, world!\n");
+  printf ("Welcome to the world of C\n");
   return 0;
 }

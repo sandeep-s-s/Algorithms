@@ -1,1 +1,1 @@
-# C-Algorithms
+# My Algorithms and Data Structures studies 

@@ -19,6 +19,7 @@ char pop()
 	if(!isEmpty())
 		return stack[top--];
 }
+
 //String Reversal Using Stack
 int main(int argc, char const *argv[])
 {

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int main()
 {
-	int i,n,x;
+	int i,n,ele,x;
 	int array[10]={6,7,8,9,10};
 	n=5;
 
@@ -12,7 +12,7 @@ int main()
 		printf("%d ", array[i]); /* Array elements are :*/
 	}
 
-	printf("\nEnter position of element to delete : ");
+	printf("\nEnter position of element to update : ");
 	scanf("%d",&x);
 
 	if(x>n){
@@ -20,11 +20,10 @@ int main()
 		exit(0);
 	}
 
-	while(n-1 > x-1){               
-	    array[x-1]=array[x];
-	    x++;
-	}
-	--n;
+	printf("Enter value :" );
+	scanf("%d",&ele);
+	
+	array[x-1] = ele;
 	
 	printf("Final array : ");
 	for(int i=0; i<n;i++){
